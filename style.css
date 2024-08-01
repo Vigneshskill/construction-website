@@ -1,0 +1,395 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+.header {
+    position: relative;
+}
+.head-bgimg {
+    width: 100%;
+    height: auto;
+}
+nav{
+    height: 4rem;
+    position: absolute;
+    padding-left: 57rem;
+   
+}
+ul {
+   display: flex;
+    margin-top: -3rem;
+}
+.opt {
+    font-size: 20px;
+    font-weight: 900;
+   padding-left: 80px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+}
+.logo{
+    margin-top: -0.5rem;
+    width: 5rem;
+    height: 5rem;
+}
+.header-content{
+position: absolute;
+z-index: 1;
+top: 30rem;
+
+}
+.tittle {
+    text-align: center;
+    font-size: 90px;
+    color: white;
+    text-shadow: 10px 10px 10px #000000;
+    font-weight: 900;
+}
+.get-btn{
+    color: white;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 30px;
+    margin-left: 44rem;
+    margin-right: 48rem;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+}
+.get-btn:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+.main-wrk-sc {
+    display: flex;
+   position: relative;
+   top: -5px;
+    padding-bottom: 50px;
+}
+.wrk-logo{
+    width: 5rem;
+    height: 5rem;
+}
+.work-sec1{
+    width: 563px;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    color: rgb(253, 236, 9);
+    background-color: rgb(13, 0, 252);
+}
+.work-sec2{
+    width: 563px;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    color:  rgb(13, 0, 252);
+    background-color:  rgb(253, 236, 9);
+}
+.work-sec3{
+    text-align: center;
+    width: 563px;
+    padding: 50px;
+    display: flex;
+    color: rgb(253, 236, 9);
+    background-color: rgb(13, 0, 252);
+}
+
+.wrk-para{
+    width: 300px;
+}
+.wk-cot {
+   padding-top: 5px;
+}
+
+/*first-container*/
+
+.first-container{
+    display: flex;
+    margin-left: 100px;
+    gap: 50px;
+}
+.fir-con-heading {
+    color: #eec200;
+    font-size: 30px;
+    font-weight: 800;
+}
+.year {
+    font-size: 60px;
+    font-weight: 800;
+}
+.fir-con-para{
+    width: 700px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.learn-btn {
+    font-size: 20px;
+    font-weight: 900;
+    padding-top: 10px;
+    width: 200px;
+    height: 3rem;
+    text-align: center;
+    background-color: rgb(253, 236, 9);
+}
+.second-container{
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+    background-color: rgb(213, 212, 212);
+}
+.pro-div{
+    display: flex;
+}
+.pro-one {
+    width: 250px;
+    padding-top: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/*third-container*/
+
+.third-container{
+    margin-top: 100px;
+}
+.third-one-cont{
+    display: flex;
+    gap: 90px;
+    margin-left: 90px;
+}
+.thir-img{
+    width: 450px;
+    height: 700px;
+}
+.thir-head{
+    margin-top: -8px;
+    padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  background: #000000;
+  color: white;
+}
+.third-two-cont{
+    margin-top: 100px;
+    display: flex;
+    gap: 90px;
+    margin-left: 90px;
+}
+
+/*fourth-container*/
+
+.fourth-container{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    color: #eec200;
+}
+.team-div{
+    display: flex;
+    gap: 35px;
+    margin-left: 100px;
+}
+.team-mem{
+    width: 350px;
+    height: 350px;
+}
+.team-name{
+    background: #000000;
+    color: white;
+    padding: 10px;
+}
+.review {
+    position: relative;
+  margin-top:10rem ;
+  margin-left: 13rem;
+  }
+  .re-main {
+    display: flex;
+    margin-top: 3rem;
+    gap: 200px;
+  }
+  .rev-con {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  .rev-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+  }
+  .rev-test {
+    text-align: center;
+    margin-left: -15rem;
+    font-size: 37px;
+    font-weight: 900;
+    color: #eec200;
+  }
+  .re-name {
+  font-size: 25px;
+  font-weight: 600;
+  }
+  .re-review {
+    text-align: center;
+    width: 250px;
+    padding-left:-2rem ;
+  }
+  .fifth-container {
+    margin-top: 150px;
+   display: flex;
+   border-radius: 15px;
+background: #ffc906;
+padding: 50px;
+width: 1290px;
+height: 189px;
+gap: 160px;
+}
+.fifth-tittle {
+    width: 303px;
+color: #000;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 550;
+line-height: normal;
+}
+.fifth-para {
+    width: 636px;
+    color: #000;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.fifth-input {
+    border-radius: 8px;
+    color: white;
+background: #000;
+width: 385.679px;
+height: 48px;
+}
+.Continue {
+    border-radius: 8px;
+background: #021bf9;
+color: #ffffff;
+padding-top: 9px;
+text-align: center;
+font-family: Poppins;
+font-size: 13px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+width: 104.996px;
+height: 37px;
+margin-top: 5px;
+margin-left: -115px;
+}
+.input-four {
+    margin-top: 35px;
+    display: flex;
+}
+  /*footer*/
+  .footer-container {
+    background-color: rgb(223, 221, 221);
+    display: flex;
+    margin-top: 50px;
+    padding-top: 50px;
+    gap: 230px;
+    
+    padding-bottom: 50px;
+    padding-left: 200px;
+  }
+  .fir-ft-tit {
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 153.5%;
+  }
+  .fir-ft-para {
+    color: #000;
+  
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  width: 372px;
+  height: 58px;
+  }
+  .fir-ft-ft {
+    color: #000;
+    width: 196px;
+    height: 23px;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  .sec-ft-tit {
+    color: #000;
+  
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  }
+  .sec-ft-para {
+    color: #000;
+  
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 186.3%;
+  }
+  .thi-ft-tit {
+    color: #000;
+  
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  }
+  .thi-ft-para {
+    color: #000;
+    width: 282px;
+    height: 76px;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  .thi-ft-num{
+    color: #000;
+    width: 141px;
+    height: 28px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  .four-foot {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .foot-logo {
+    width: 34px;
+    height: 34px;
+  border-radius: 20px;
+  transition: 0.3s;
+  }
+  .foot-logo:hover{
+    transform: scale(0.7,0.7);
+  }
